@@ -52,12 +52,14 @@ footer ul {
   list-style: none;
 }
 
-#paypal-buy-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+@media (min-width: 900px) {
+  #paypal-buy-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-#paypal-buy-container > div {
-  width: 45vw;
+  #paypal-buy-container > div {
+    width: 45vw;
+  }
 }
